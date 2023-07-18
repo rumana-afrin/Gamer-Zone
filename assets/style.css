@@ -208,15 +208,56 @@
     font-weight: 600;
     text-transform: uppercase;
 }
-.purpos{
-    color:  #a3a2a4;
+
+.purpos {
+    color: #a3a2a4;
     margin-top: 10px;
 }
-.unleash{
-    color:  #534C64;
+
+.unleash {
+    color: #534C64;
     margin-top: 10px;
     font-weight: 700;
 }
+
+/* -------------------------------end gamer section---------------------- */
+.online-section {
+    margin: 10px 70px 10px 70px;
+    padding: 10px 30px 10px 30px;
+}
+
+.online-heading {
+    text-align: center;
+}
+
+.f-video {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 28px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+  
+}
+
+.online-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image {
+    width: 300px;
+
+}
+
+.image img {
+    width: 250px;
+}
+
 @media screen and (max-width:576px) {
 
     .about-us,
