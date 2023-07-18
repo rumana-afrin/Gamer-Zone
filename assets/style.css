@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 70px 10px 70px;
+    padding: 10px 30px 10px 30px;
+}
+
+.logo {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.gamer {
+    color: #FF42A5;
+}
+
+.logo p {
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+    padding: 10px;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.about-us {
+    max-width: 50%;
+}
+
+.follow-us {
+    max-width: 50%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.follow-us {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.follow-us li {
+    list-style: none;
+}
+
+.follow-us li a {
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.fa-youtube {
+    color: red;
+
+}
+
+/* -------------------------------end heaser ----------------- */
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 70px 10px 70px;
+    padding: 10px 30px 10px 30px;
+}
+
+.banner-text .title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    color: #0B0223;
+}
+
+.banner-text .goat {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 75px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.banner-img img {
+    height: 500px;
+}
+
+@media screen and (max-width:576px) {
+
+    .about-us,
+    .follow-us,
+    .navbar,
+    .logo,
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+}
