@@ -118,6 +118,105 @@
     height: 500px;
 }
 
+.click,
+.nodownload,
+.supporte {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.click p,
+.nodownload p,
+.supporte p {
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.butn1 {
+    /* background-color: #FF42A5; */
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    font-size: 14px;
+}
+
+.butn2 {
+
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
+    font-size: 14px;
+}
+
+/* ------------------------end banner section------------------------------- */
+.gamer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 70px 10px 70px;
+    padding: 10px 30px 10px 30px;
+}
+
+.gamer-img {
+    max-width: 750px;
+}
+
+.gamer-description {
+    max-width: 350px;
+    text-align: right;
+}
+
+.gamer-img img {
+    width: 750px;
+    height: 489px;
+
+}
+
+.gamer-title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-description {
+    color: #534C64;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.gamer-button {
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius: 48px;
+    border: none;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.purpos{
+    color:  #a3a2a4;
+    margin-top: 10px;
+}
+.unleash{
+    color:  #534C64;
+    margin-top: 10px;
+    font-weight: 700;
+}
 @media screen and (max-width:576px) {
 
     .about-us,
