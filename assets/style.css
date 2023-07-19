@@ -239,18 +239,19 @@
     font-size: 28px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
-  
+
 }
 
 .online-img {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 20px;
 }
 
 .image {
-    width: 300px;
+    width: 250px;
+    height: 500px;
 
 }
 
@@ -258,6 +259,39 @@
     width: 250px;
 }
 
+/* --------------------------------online sention end------------------------ */
+.play-game-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 70px 10px 70px;
+    padding: 10px 30px 10px 30px;
+    position: relative;
+}
+
+.relative-game>img {
+    width: 500px;
+    height: 390px;
+}
+
+.absotute-game img {
+    width: 280px;
+    height: 280px;
+}
+.relative-game{
+    position: relative;
+}
+.absotute-game{
+    position: absolute;
+    bottom: 0;
+}
+.play-game{
+    width: 350px;
+}
+.play-game h2{
+    width: 226px;
+    margin-bottom: 10px;
+}
 @media screen and (max-width:576px) {
 
     .about-us,
