@@ -302,12 +302,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 70px 10px 70px;
+    margin: 0px 0px 10px 0px;
     padding: 0px 30px 10px 30px;
     color: white;
     background-color: #F948B2;
 }
-
+.career{
+    margin: 0px 70px 10px 70px;
+}
 .career-discription {
     width: 700px;
 }
@@ -378,7 +380,7 @@
 }
 /* -------------------------------------end link section------------------------ */
 .footer-section{
-    margin: 10px 70px 10px 70px;
+    margin: 10px 0px 10px 0px;
     padding: 50px 30px 10px 30px;
     text-align: center;
     background: #0B0223;
