@@ -266,7 +266,7 @@
     align-items: center;
     margin: 10px 70px 10px 70px;
     padding: 10px 30px 10px 30px;
-    position: relative;
+
 }
 
 .relative-game>img {
@@ -278,20 +278,66 @@
     width: 280px;
     height: 280px;
 }
-.relative-game{
+
+.relative-game {
     position: relative;
 }
-.absotute-game{
+
+.absotute-game {
     position: absolute;
     bottom: 0;
 }
-.play-game{
+
+.play-game {
     width: 350px;
 }
-.play-game h2{
+
+.play-game h2 {
     width: 226px;
     margin-bottom: 10px;
 }
+
+/* ---------------------end play section-------------------------- */
+.career-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 70px 10px 70px;
+    padding: 0px 30px 10px 30px;
+    color: white;
+    background-color: #F948B2;
+}
+
+.career-discription {
+    width: 700px;
+}
+
+.career-img img {
+    width: 500px;
+    height: 500px;
+}
+
+.left-right-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.career-discription h1,
+.career-discription>p {
+    margin-bottom: 15px;
+}
+
+.carrer-button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    border: none;
+}
+/* ------------------------------end career-section--------------- */
+
 @media screen and (max-width:576px) {
 
     .about-us,
