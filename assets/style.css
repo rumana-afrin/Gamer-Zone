@@ -272,8 +272,8 @@
     text-decoration: none;
     font-size: 28px;
 }
-.fa-youtube{
-    color: rgb(255, 0, 43);
+.fa-circle-play{
+    color: rgb(245, 241, 242);
     opacity: 1;
 }
 
@@ -419,7 +419,11 @@
     justify-content: space-evenly;
     align-items: center;
 }
-
+.first-links a:hover,.seconds-links a:hover{
+    border: 1px solid #F948B2;
+    border-radius: 20px;
+    padding: 0px 10px 0px 5px;
+}
 /* -------------------------------------end link section------------------------ */
 .footer-section {
     margin: 10px 0px 10px 0px;
@@ -495,6 +499,19 @@
     .follow-us,
     .navbar,
     .logo,
+    .banner-text,
+    .banner-section,
+    .gamer-section,
+    .online-img,
+    .play-game-section,
+    .career-section,
+    .left-right-side, 
+    .first-links a,
+    .first-links a,
+    .seconds-links a,
+    .first-links,
+    .seconds-links,
+    .footer-menu ul,
     .menu {
         display: flex;
         flex-direction: column;
